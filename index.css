@@ -13,13 +13,13 @@ body {
   position: sticky;
   justify-content: space-between;
   align-items: center;
-  padding: 3% 2% 2% 2%;
+  padding: 3% 2% 2% 0px;
   text-decoration: none;
   width: auto;
 }
 
 .logo {
-  padding-left: 5%;
+  padding-left: 130px;
 }
 
 .logo img {
@@ -35,9 +35,9 @@ body {
 }
 
 .navitems {
-  width: 26%;
+  width: 494px;
   margin: 0%;
-  margin-right: 7%;
+  margin-right: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,7 +148,7 @@ nav.borderXwidth a:hover:after {
 .title {
   margin-top: 0;
   display: block;
-  padding-left: 7%;
+  padding-left: 130px;
   padding-top: 4%;
   font-family: "Lato", sans-serif;
   font-weight: 900;
@@ -163,19 +163,23 @@ nav.borderXwidth a:hover:after {
 }
 
 .title p {
-  padding-top: 1.7%;
+  padding-top: 40px;
   font-weight: 400;
   font-size: 19px;
   width: 30%;
   text-align: justify;
 }
 
+.title h3 {
+  padding-top: 7px;
+}
+
 .icons {
-  padding-left: 7%;
-  padding-top: 4%;
+  padding-left: 130px;
+  padding-top: 70px;
   display: flex;
   justify-content: space-between;
-  width: 23%;
+  width: 450px;
   transition: 0.5s;
 }
 
