@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="home">
+      <div class="navbar">
+        <a class="logo" href=""><img src="images/logo.png" alt="" /></a>
+        <nav class="navitems borderXwidth">
+          <a href="">Home</a>
+          <a href="#about">About</a>
+          <a href="">Experience</a>
+          <button class="button-56" role="button">Resume</button>
+        </nav>
+      </div>
+      <div class="title">
+        <h3>Hello, my name is</h3>
+        <h1>Arham Ansari</h1>
+        <h3>I am a <span class="auto-type"></span></h3>
+        <p>
+          I am a second year software engineering student at Western hoping to
+          break into the tech industry. I have a keen interest in full-stack
+          development alongside an emphasis on UI design.
+        </p>
+      </div>
+      <div class="icons">
+        <a class="github" href=""><img src="images/github.png" alt="" /></a
+        ><a class="linkedin" href=""
+          ><img src="images/linkedin.png" alt=""
+        /></a>
+        <a class="ig" href=""><img src="images/ig.svg" alt="" /></a>
+        <a class="email" href=""><img src="images/email.png" alt="" /></a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-title"><h2>About Me</h2></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "^500Software Engineering Student^2000",
+          "^500Business Student^2000",
+          "^500Gamer^2000",
+          "^500Tech Enthusiast^2000",
+        ],
+        typeSpeed: 20,
+        backSpeed: 20,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
