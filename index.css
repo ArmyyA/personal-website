@@ -8,6 +8,10 @@ body {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: flex;
   position: sticky;
@@ -27,7 +31,9 @@ body {
   height: auto;
 }
 
-.navbar a {
+.navbar .home-link,
+.about-link,
+.experience-link {
   text-decoration: none;
   color: aliceblue;
   font-family: "Lato", sans-serif;
